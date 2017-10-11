@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Mr.co 的个人站</title>
+  <title>Mr.coの博客</title>
   
-  <subtitle>qaq</subtitle>
+  <subtitle>记录学习的技能和遇到的问题</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cocoblog.site/"/>
