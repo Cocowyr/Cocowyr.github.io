@@ -4,9 +4,21 @@
     
     <entry>
       <title><![CDATA[测试2]]></title>
-      <url>/2017/10/11/%E6%B5%8B%E8%AF%952-1/</url>
+      <url>/2017/10/11/%E6%B5%8B%E8%AF%952/</url>
       <content type="html"></content>
       
+        <categories>
+            
+            <category> ww </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> er we </tag>
+            
+        </tags>
         
     </entry>
     
@@ -52,14 +64,14 @@
   
     
     <entry>
-      <title><![CDATA[categories]]></title>
-      <url>/categories/index.html</url>
+      <title><![CDATA[about]]></title>
+      <url>/about/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[about]]></title>
-      <url>/about/index.html</url>
+      <title><![CDATA[categories]]></title>
+      <url>/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
