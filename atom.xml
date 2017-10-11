@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cocoblog.site/"/>
-  <updated>2017-10-11T08:33:44.000Z</updated>
+  <updated>2017-10-11T09:35:26.000Z</updated>
   <id>http://www.cocoblog.site/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>avb</title>
+    <link href="http://www.cocoblog.site/2017/10/11/avb/"/>
+    <id>http://www.cocoblog.site/2017/10/11/avb/</id>
+    <published>2017-10-11T09:35:26.000Z</published>
+    <updated>2017-10-11T09:35:26.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>测试2</title>
