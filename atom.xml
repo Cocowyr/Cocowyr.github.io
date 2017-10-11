@@ -5,9 +5,9 @@
   <subtitle>记录学习的技能和遇到的问题</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://cocoblog.site/"/>
+  <link href="http://www.cocoblog.site/"/>
   <updated>2017-10-11T08:33:44.000Z</updated>
-  <id>http://cocoblog.site/</id>
+  <id>http://www.cocoblog.site/</id>
   
   <author>
     <name>Mr.co</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>测试2</title>
-    <link href="http://cocoblog.site/2017/10/11/%E6%B5%8B%E8%AF%952/"/>
-    <id>http://cocoblog.site/2017/10/11/测试2/</id>
+    <link href="http://www.cocoblog.site/2017/10/11/%E6%B5%8B%E8%AF%952/"/>
+    <id>http://www.cocoblog.site/2017/10/11/测试2/</id>
     <published>2017-10-11T08:23:50.000Z</published>
     <updated>2017-10-11T08:33:44.000Z</updated>
     
@@ -27,17 +27,17 @@
     
     </summary>
     
-      <category term="ww" scheme="http://cocoblog.site/categories/ww/"/>
+      <category term="ww" scheme="http://www.cocoblog.site/categories/ww/"/>
     
     
-      <category term="er we" scheme="http://cocoblog.site/tags/er-we/"/>
+      <category term="er we" scheme="http://www.cocoblog.site/tags/er-we/"/>
     
   </entry>
   
   <entry>
     <title>Hello</title>
-    <link href="http://cocoblog.site/2017/10/11/Hello/"/>
-    <id>http://cocoblog.site/2017/10/11/Hello/</id>
+    <link href="http://www.cocoblog.site/2017/10/11/Hello/"/>
+    <id>http://www.cocoblog.site/2017/10/11/Hello/</id>
     <published>2017-10-11T08:21:10.000Z</published>
     <updated>2017-10-11T08:33:53.000Z</updated>
     
@@ -53,17 +53,17 @@
     
     </summary>
     
-      <category term="55" scheme="http://cocoblog.site/categories/55/"/>
+      <category term="55" scheme="http://www.cocoblog.site/categories/55/"/>
     
     
-      <category term="111" scheme="http://cocoblog.site/tags/111/"/>
+      <category term="111" scheme="http://www.cocoblog.site/tags/111/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://cocoblog.site/2017/10/11/hello-world/"/>
-    <id>http://cocoblog.site/2017/10/11/hello-world/</id>
+    <link href="http://www.cocoblog.site/2017/10/11/hello-world/"/>
+    <id>http://www.cocoblog.site/2017/10/11/hello-world/</id>
     <published>2017-10-11T06:55:02.000Z</published>
     <updated>2017-10-11T06:55:02.000Z</updated>
     
