@@ -3,6 +3,14 @@
   
     
     <entry>
+      <title><![CDATA[测试2]]></title>
+      <url>/2017/10/11/%E6%B5%8B%E8%AF%952-1/</url>
+      <content type="html"></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello]]></title>
       <url>/2017/10/11/Hello/</url>
       <content type="html"><![CDATA[<p>comments</p>
@@ -44,6 +52,12 @@
   
     
     <entry>
+      <title><![CDATA[categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[about]]></title>
       <url>/about/index.html</url>
       <content type="html"></content>
@@ -52,12 +66,6 @@
     <entry>
       <title><![CDATA[tags]]></title>
       <url>/tags/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[categories]]></title>
-      <url>/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
