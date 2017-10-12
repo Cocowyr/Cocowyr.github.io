@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://cocoblog.site/about/index.html</loc>
+    
+    <lastmod>2017-10-12T03:48:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://cocoblog.site/tags/index.html</loc>
     
     <lastmod>2017-10-12T03:41:37.000Z</lastmod>
