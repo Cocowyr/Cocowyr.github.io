@@ -4,13 +4,15 @@
 
     
   <url>
-    <loc>http://cocoblog.site/sdsfsdfsdf.html</loc>
-    <lastmod>2018-03-05T09:55:48.677Z</lastmod>
+    <loc>http://cocoblog.site/error-RPC-failed-curl-18-transfer-closed-with-outstanding-read-data-remaining.html</loc>
+    <lastmod>2018-04-03T06:54:17.411Z</lastmod>
     <data>
         <display>
-        <title>sdsfsdfsdf</title>
-        <pubTime>2018-03-05T09:54:03.000Z</pubTime>
+        <title>error: RPC failed; curl 18 transfer closed with outstanding read data remaining</title>
+        <pubTime>2018-04-03T06:41:04.000Z</pubTime>
         
+        <tag>git</tag>
+         
          
            
         </display>
