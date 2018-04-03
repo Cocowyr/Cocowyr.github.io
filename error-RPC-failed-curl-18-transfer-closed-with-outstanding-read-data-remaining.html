@@ -79,7 +79,7 @@
 <meta property="og:site_name" content="Mr.co の博客">
 <meta property="og:description" content="最近项目要进入到新一轮的spring，需要从git上克隆一份最新的代码，在使用终端clone的时候，屡次出现如下错误：1234error: RPC failed; curl 18 transfer closed with outstanding read data remainingfatal: The remote end hung up unexpectedlyfatal: early EOF">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-03T06:54:17.411Z">
+<meta property="og:updated_time" content="2018-04-03T06:59:27.171Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="error: RPC failed; curl 18 transfer closed with outstanding read data remaining">
 <meta name="twitter:description" content="最近项目要进入到新一轮的spring，需要从git上克隆一份最新的代码，在使用终端clone的时候，屡次出现如下错误：1234error: RPC failed; curl 18 transfer closed with outstanding read data remainingfatal: The remote end hung up unexpectedlyfatal: early EOF">
@@ -379,6 +379,7 @@
 
       
         <h4 id="最近项目要进入到新一轮的spring，需要从git上克隆一份最新的代码，在使用终端clone的时候，屡次出现如下错误："><a href="#最近项目要进入到新一轮的spring，需要从git上克隆一份最新的代码，在使用终端clone的时候，屡次出现如下错误：" class="headerlink" title="最近项目要进入到新一轮的spring，需要从git上克隆一份最新的代码，在使用终端clone的时候，屡次出现如下错误："></a>最近项目要进入到新一轮的spring，需要从git上克隆一份最新的代码，在使用终端clone的时候，屡次出现如下错误：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">error: RPC failed; curl 18 transfer closed with outstanding read data remaining</div><div class="line">fatal: The remote end hung up unexpectedly</div><div class="line">fatal: early EOF</div><div class="line">fatal: index-pack failed</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <h4 id="原因说明"><a href="#原因说明" class="headerlink" title="原因说明:"></a>原因说明:</h4><h4 id="我们的项目由于时代久远，所以导致整个项目比较复杂庞大。出现这种错误，就是因为curl的postBuffer默认值太小的原因，重新在终端配置一下这个值就可以了。"><a href="#我们的项目由于时代久远，所以导致整个项目比较复杂庞大。出现这种错误，就是因为curl的postBuffer默认值太小的原因，重新在终端配置一下这个值就可以了。" class="headerlink" title="我们的项目由于时代久远，所以导致整个项目比较复杂庞大。出现这种错误，就是因为curl的postBuffer默认值太小的原因，重新在终端配置一下这个值就可以了。"></a>我们的项目由于时代久远，所以导致整个项目比较复杂庞大。出现这种错误，就是因为curl的postBuffer默认值太小的原因，重新在终端配置一下这个值就可以了。</h4><h4 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git config --global http.postBuffer 524288000</div></pre></td></tr></table></figure>
 <h4 id="524288000代表B，524288000B也就是500MB。这个值得大小，可以根据项目酌情设置。"><a href="#524288000代表B，524288000B也就是500MB。这个值得大小，可以根据项目酌情设置。" class="headerlink" title="524288000代表B，524288000B也就是500MB。这个值得大小，可以根据项目酌情设置。"></a>524288000代表B，524288000B也就是500MB。这个值得大小，可以根据项目酌情设置。</h4><hr>
 <h4 id="也可以用如下命令查看是否配置成功："><a href="#也可以用如下命令查看是否配置成功：" class="headerlink" title="也可以用如下命令查看是否配置成功："></a>也可以用如下命令查看是否配置成功：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git config --list</div></pre></td></tr></table></figure>
