@@ -8,18 +8,20 @@
       <content type="html"><![CDATA[<h3 id="iOS-开发打包静态库-a文件，本人一步步教你用脚本打包"><a href="#iOS-开发打包静态库-a文件，本人一步步教你用脚本打包" class="headerlink" title="iOS 开发打包静态库.a文件，本人一步步教你用脚本打包"></a>iOS 开发打包静态库.a文件，本人一步步教你用脚本打包</h3><h4 id="准本工作"><a href="#准本工作" class="headerlink" title="准本工作"></a>准本工作</h4><ul>
 <li>创建一个AntKeyBoard的静态工程(AntKeyBoard 替换你项目的名字)</li>
 </ul>
-<p><img src="/Users/Mrco/Desktop/D51B8026DE03C0B4E121CF0DA29CEBBE.jpg" alt="D51B8026DE03C0B4E121CF0DA29CEBBE"></p>
+<p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1frryceivddj314k0t8wig.jpg" alt="D51B8026DE03C0B4E121CF0DA29CEBBE"></p>
 <ul>
 <li><p>然后添加一个新Target 选择<code>Cross-platform</code>,新建一个<code>Aggregate</code>,命名为<code>AntKeyBoardShell</code>  </p>
 <a id="more"></a>
 <p><img src="/Users/Mrco/Library/Containers/com.tencent.qq/Data/Library/Caches/Images/F635760DF63B28BA2BA7E8301F443D51.jpg" alt="F635760DF63B28BA2BA7E8301F443D51"></p>
 </li>
-<li><p>添加一个 Run Script<img src="/Users/Mrco/Library/Containers/com.tencent.qq/Data/Library/Caches/Images/5C81B64F2B19BE7C49F9B71A6BDF464E.jpg" alt="5C81B64F2B19BE7C49F9B71A6BDF464E"></p>
+<li><p>添加一个 Run Script</p>
+<p><img src="/Users/Mrco/Desktop/5C81B64F2B19BE7C49F9B71A6BDF464E.jpg" alt="5C81B64F2B19BE7C49F9B71A6BDF464E"></p>
+<p><img src="/Users/Mrco/Desktop/0B62C74FD52B3A605ED940E2C555FD3C.jpg" alt="0B62C74FD52B3A605ED940E2C555FD3C"></p>
 </li>
 <li><p>新建一个shell 文件 命名为<code>build_AntKeyBoard_script.sh</code>  目录如下</p>
+<p><img src="/Users/Mrco/Desktop/67DB4EC3EECE6C46B9600CB5B4BC1E20.jpg" alt="67DB4EC3EECE6C46B9600CB5B4BC1E20"></p>
 </li>
 </ul>
-<p>  <img src="/Users/Mrco/Library/Containers/com.tencent.qq/Data/Library/Caches/Images/67DB4EC3EECE6C46B9600CB5B4BC1E20.jpg" alt="67DB4EC3EECE6C46B9600CB5B4BC1E20"></p>
 <p>​     在 新建的Run Script写下新建shell文件的路径目录</p>
 <ul>
 <li><p>编码完成设置需要暴漏出来的头文件</p>
@@ -281,16 +283,16 @@
     </entry>
     
     <entry>
+      <title><![CDATA[categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[about]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<p>毕业之后成为了程序员，什么java，php，前端，iOS，安卓，python都不会</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
