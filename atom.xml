@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cocoblog.site/"/>
-  <updated>2018-05-29T01:51:13.083Z</updated>
+  <updated>2018-06-25T01:54:51.567Z</updated>
   <id>http://cocoblog.site/</id>
   
   <author>
@@ -17,21 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>git拉取远程分支并创建本地分支</title>
-    <link href="http://cocoblog.site/git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF%E5%B9%B6%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0%E5%88%86%E6%94%AF.html"/>
-    <id>http://cocoblog.site/git拉取远程分支并创建本地分支.html</id>
-    <published>2018-05-29T01:39:09.000Z</published>
-    <updated>2018-05-29T01:51:13.083Z</updated>
+    <title>iOS开发上传App Store时候一直卡在 Authenticating with the iTunes Store 的解决办法</title>
+    <link href="http://cocoblog.site/iOS%E5%BC%80%E5%8F%91%E4%B8%8A%E4%BC%A0App-Store%E6%97%B6%E5%80%99%E4%B8%80%E7%9B%B4%E5%8D%A1%E5%9C%A8-Authenticating-with-the-iTunes-Store-%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.html"/>
+    <id>http://cocoblog.site/iOS开发上传App-Store时候一直卡在-Authenticating-with-the-iTunes-Store-的解决办法.html</id>
+    <published>2018-06-25T01:46:16.000Z</published>
+    <updated>2018-06-25T01:54:51.567Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="git拉取远程分支并创建本地分支"><a href="#git拉取远程分支并创建本地分支" class="headerlink" title="git拉取远程分支并创建本地分支"></a>git拉取远程分支并创建本地分支</h3><ul><li>使用如下git命令查看所有远程分支：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git branch -r ///</div></pre></td></tr></table></figure><ul><li>拉取远程分支并创建本地分支使用如下命令</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git checkout -b 本地分支名x origin/远程分支名x</div></pre></td></tr></table></figure><p>使用该方式会在本地新建分支x，并自动切换到该本地分支x</p><p><strong>采用此种方法建立的本地分支会和远程分支建立映射关系</strong>。</p><ul><li>或者使用</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git fetch origin 远程分支名x:本地分支名x</div></pre></td></tr></table></figure><p>使用该方式会在本地新建分支x，但是不会自动切换到该本地分支x，需要手动checkout.</p><p><strong>采用此种方法建立的本地分支不会和远程分支建立映射关系。</strong></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="iOS开发上传App-Store时候一直卡在-Authenticating-with-the-iTunes-Store-的解决办法"><a href="#iOS开发上传App-Store时候一直卡在-Authenticating-with-the-iTunes-Store-的解决办法" class="headerlink" title="iOS开发上传App Store时候一直卡在 Authenticating with the iTunes Store 的解决办法"></a>iOS开发上传App Store时候一直卡在 Authenticating with the iTunes Store 的解决办法</h3><p>####今天上传项目的时候出现一直卡死在 Authenticating with the iTunes Store 这个步骤 与网络无关, 搜索了下<a href="https://stackoverflow.com/questions/22443425/application-loader-stuck-at-authenticating-with-the-itunes-store-when-uploadin" target="_blank" rel="external">stack</a></p><h4 id="需要执行下面三个步骤"><a href="#需要执行下面三个步骤" class="headerlink" title="需要执行下面三个步骤"></a>需要执行下面三个步骤</h4><ol><li><p>cd ~  </p></li><li><p>mv .itmstransporter/ .old_itmstransporter/  </p></li><li><p>“/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/bin/iTMSTransporter” </p></li></ol><h4 id="当终端命令全部执行完毕-在上传就可以了"><a href="#当终端命令全部执行完毕-在上传就可以了" class="headerlink" title="当终端命令全部执行完毕,在上传就可以了"></a>当终端命令全部执行完毕,在上传就可以了</h4>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;git拉取远程分支并创建本地分支&quot;&gt;&lt;a href=&quot;#git拉取远程分支并创建本地分支&quot; class=&quot;headerlink&quot; title=&quot;git拉取远程分支并创建本地分支&quot;&gt;&lt;/a&gt;git拉取远程分支并创建本地分支&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;使用如下git命
+        &lt;h3 id=&quot;iOS开发上传App-Store时候一直卡在-Authenticating-with-the-iTunes-Store-的解决办法&quot;&gt;&lt;a href=&quot;#iOS开发上传App-Store时候一直卡在-Authenticating-with-the-iTunes-S
       
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git拉取远程分支并创建本地分支</title>
+    <link href="http://cocoblog.site/git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF%E5%B9%B6%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0%E5%88%86%E6%94%AF.html"/>
+    <id>http://cocoblog.site/git拉取远程分支并创建本地分支.html</id>
+    <published>2018-05-29T01:39:09.000Z</published>
+    <updated>2018-05-29T01:55:11.495Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="git拉取远程分支并创建本地分支"><a href="#git拉取远程分支并创建本地分支" class="headerlink" title="git拉取远程分支并创建本地分支"></a>git拉取远程分支并创建本地分支</h3><ul><li>使用如下git命令查看所有远程分支：</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git branch -r ///</div></pre></td></tr></table></figure><ul><li>拉取远程分支并创建本地分支使用如下命令</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git checkout -b 本地分支名x origin/远程分支名x</div></pre></td></tr></table></figure><p>使用该方式会在本地新建分支x，并自动切换到该本地分支x</p><a id="more"></a><p><strong>采用此种方法建立的本地分支会和远程分支建立映射关系</strong>。</p><ul><li>或者使用</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git fetch origin 远程分支名x:本地分支名x</div></pre></td></tr></table></figure><p>使用该方式会在本地新建分支x，但是不会自动切换到该本地分支x，需要手动checkout.</p><p><strong>采用此种方法建立的本地分支不会和远程分支建立映射关系。</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;git拉取远程分支并创建本地分支&quot;&gt;&lt;a href=&quot;#git拉取远程分支并创建本地分支&quot; class=&quot;headerlink&quot; title=&quot;git拉取远程分支并创建本地分支&quot;&gt;&lt;/a&gt;git拉取远程分支并创建本地分支&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;使用如下git命令查看所有远程分支：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;git branch -r ///&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;拉取远程分支并创建本地分支使用如下命令&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;git checkout -b 本地分支名x origin/远程分支名x&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;使用该方式会在本地新建分支x，并自动切换到该本地分支x&lt;/p&gt;
     
     </summary>
     

@@ -3,6 +3,23 @@
   
     
     <entry>
+      <title><![CDATA[iOS开发上传App Store时候一直卡在 Authenticating with the iTunes Store 的解决办法]]></title>
+      <url>/iOS%E5%BC%80%E5%8F%91%E4%B8%8A%E4%BC%A0App-Store%E6%97%B6%E5%80%99%E4%B8%80%E7%9B%B4%E5%8D%A1%E5%9C%A8-Authenticating-with-the-iTunes-Store-%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.html</url>
+      <content type="html"><![CDATA[<h3 id="iOS开发上传App-Store时候一直卡在-Authenticating-with-the-iTunes-Store-的解决办法"><a href="#iOS开发上传App-Store时候一直卡在-Authenticating-with-the-iTunes-Store-的解决办法" class="headerlink" title="iOS开发上传App Store时候一直卡在 Authenticating with the iTunes Store 的解决办法"></a>iOS开发上传App Store时候一直卡在 Authenticating with the iTunes Store 的解决办法</h3><p>####今天上传项目的时候出现一直卡死在 Authenticating with the iTunes Store 这个步骤 与网络无关, 搜索了下<a href="https://stackoverflow.com/questions/22443425/application-loader-stuck-at-authenticating-with-the-itunes-store-when-uploadin" target="_blank" rel="external">stack</a></p>
+<h4 id="需要执行下面三个步骤"><a href="#需要执行下面三个步骤" class="headerlink" title="需要执行下面三个步骤"></a>需要执行下面三个步骤</h4><ol>
+<li><p>cd ~  </p>
+</li>
+<li><p>mv .itmstransporter/ .old_itmstransporter/  </p>
+</li>
+<li><p>“/Applications/Xcode.app/Contents/Applications/Application Loader.app/Contents/itms/bin/iTMSTransporter” </p>
+</li>
+</ol>
+<h4 id="当终端命令全部执行完毕-在上传就可以了"><a href="#当终端命令全部执行完毕-在上传就可以了" class="headerlink" title="当终端命令全部执行完毕,在上传就可以了"></a>当终端命令全部执行完毕,在上传就可以了</h4>]]></content>
+      
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[git拉取远程分支并创建本地分支]]></title>
       <url>/git%E6%8B%89%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%88%86%E6%94%AF%E5%B9%B6%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0%E5%88%86%E6%94%AF.html</url>
       <content type="html"><![CDATA[<h3 id="git拉取远程分支并创建本地分支"><a href="#git拉取远程分支并创建本地分支" class="headerlink" title="git拉取远程分支并创建本地分支"></a>git拉取远程分支并创建本地分支</h3><ul>
@@ -14,6 +31,7 @@
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git checkout -b 本地分支名x origin/远程分支名x</div></pre></td></tr></table></figure>
 <p>使用该方式会在本地新建分支x，并自动切换到该本地分支x</p>
+<a id="more"></a>
 <p><strong>采用此种方法建立的本地分支会和远程分支建立映射关系</strong>。</p>
 <ul>
 <li>或者使用</li>
@@ -317,16 +335,16 @@
     </entry>
     
     <entry>
+      <title><![CDATA[categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[about]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<p>毕业之后成为了程序员，什么java，php，前端，iOS，安卓，python都不会</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
