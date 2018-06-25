@@ -17,6 +17,12 @@
 <h4 id="当终端命令全部执行完毕-在上传就可以了"><a href="#当终端命令全部执行完毕-在上传就可以了" class="headerlink" title="当终端命令全部执行完毕,在上传就可以了"></a>当终端命令全部执行完毕,在上传就可以了</h4>]]></content>
       
         
+        <tags>
+            
+            <tag> 打包 </tag>
+            
+        </tags>
+        
     </entry>
     
     <entry>
@@ -335,16 +341,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[about]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<p>毕业之后成为了程序员，什么java，php，前端，iOS，安卓，python都不会</p>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
     </entry>
     
     <entry>
