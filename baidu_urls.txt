@@ -1,3 +1,6 @@
+http://cocoblog.site/git合并分支到master.html
+http://cocoblog.site/git-添加tag.html
+http://cocoblog.site/app上线到App-Store之后的链接地址.html
 http://cocoblog.site/iOS开发上传App-Store时候一直卡在-Authenticating-with-the-iTunes-Store-的解决办法.html
 http://cocoblog.site/git拉取远程分支并创建本地分支.html
 http://cocoblog.site/iOS静态库打包.html
